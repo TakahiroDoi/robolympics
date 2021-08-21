@@ -1,7 +1,7 @@
 # Readme
 * 2021 Neuromatch Academy Deep Learning Course's project 
 * Training virtual one-leg hopper (from the PyBullet environment, an open source implementation of OpenAI Gym) using deep reinforcement learning 
-* We used D4PG RL agent (https://arxiv.org/pdf/1804.08617.pdf) 
+* We used D4PG RL agent (https://arxiv.org/pdf/1804.08617.pdf) from dm-acme
 * Project team (Robojockeys)
   * Main contributors: Takahiro Doi, Yuchen Zhao, Shuqi Liu, Amir Kashef
   * Honorary member: Quinn Lee (, who chose the gym environment for the course project)
