@@ -7,7 +7,7 @@
   * Honorary member: Quinn Lee (, who chose the gym environment for the course project)
 * Presentation slide https://docs.google.com/presentation/d/1BdSZX5UiMUoOZi3DcjCXo22JGeFoAlqX4VmcxjqS1B4/edit#slide=id.ge8ced83644_4_11
 * Colab notebook: https://colab.research.google.com/drive/1jdI2hsYZlDBAZB8m_JI7vHrhoHcSmckq?usp=sharing
-* Template: https://deeplearning.neuromatch.io/projects/ReinforcementLearning/robolympics.html
+* Template provided at the beginning of the course: https://deeplearning.neuromatch.io/projects/ReinforcementLearning/robolympics.html
 
 # Summary of the project progress during Neuromatch Academy
 1. Moving forward (MF)
