@@ -42,3 +42,25 @@
 # Improve presentations  
   * Learning curves must be included  
     * Return, episode length, average velocity (for moving tasks) 
+
+# Usage 
+## Key parameters 
+### Training 
+* Architecture (network width and depth)
+* idx_task_type: target locations   
+* idx_task_type: target locations   
+* save_agent_name and load_agent_name: for checkpoints  
+* idx_training_design: blocked design or not  
+* idx_training_design: choose which way you want to train the hopper 
+
+### Testing  
+* walk_target: walk destination during test  
+* idx_target_dynamic: 1 for shifting the target location further away (use to make Hopper to do MF->SS->MF->SS move)
+* b_create_video: 1 for creating a video, 0 for running many tests for analysis  
+
+### Checkpoint  
+0. Delete current agent if any 
+1. Make agent instance  
+2. Reload file  
+3. Make agent instance again 
+* For a long training, I usually save the agent with a new name, re-load it, then start training to be safe
