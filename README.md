@@ -10,7 +10,7 @@
 * Template provided at the beginning of the course: https://deeplearning.neuromatch.io/projects/ReinforcementLearning/robolympics.html
 
 # Summary of the project progress during Neuromatch Academy
-1. Moving forward (MF)
+1. Moving forward (MF) [**hopper_walker2**, **hopper_walker3** (faster)]
   * We struggled to find a good set of hyper parameters to just teach Hopper to hop forward (it stood still but did not move forward.)
     * Quinn said: it didn't learn to hop forward even after trained for 1 million steps 
   * Eventually found that Hopper learned this task in ~200,000 steps with the default RL algorithm, architecture, and hyper parameters (in most cases).
@@ -18,7 +18,7 @@
     * when reaching the target destination, it immediately fell and couldn't stand still
     * when given the target destination, it couldn't stay still there 
     
-2. Moving forward (MF) and stand still (SS)
+2. Moving forward (MF) and stand still (SS) [**hopper_two_goal_training3**]
   * We set out to solve the two issues above.
   * Strategy: two goals (two target destinations) were mixed during the training (target distance = 0, 1000)
     * 10 episodes / block, 100 blocks   
@@ -28,7 +28,7 @@
   * Implemented a test condition where the goal was shifted further when reached  
   * Hopper sequenced the learned moves: MF->SS->MF->SS 
   
-3. MF, SS, and MB (Moving Backward) 
+3. MF, SS, and MB (Moving Backward) [**hopper_three_goal_training4**]
   * The same architecture seemed not working even with million steps  
   * Tried a deeper model and wider model  (the first layer width doubled for both actor and critic)
   * Alive coefficient (in reward) increased from 2 to 3
